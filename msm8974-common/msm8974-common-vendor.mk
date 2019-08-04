@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
+    vendor/pantech/msm8974-common/proprietary/vendor/bin/vcsFPService:system/vendor/bin/vcsFPService \
     vendor/pantech/msm8974-common/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/pantech/msm8974-common/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/pantech/msm8974-common/proprietary/vendor/etc/firmware/a225_pfp.fw:system/vendor/etc/firmware/a225_pfp.fw \
@@ -63,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
     vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
     vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_vt_common.so:system/lib/libchromatix_s5k6b2yx_vt_common.so \
+    vendor/pantech/msm8974-common/proprietary/lib/libfpc1080_jni.so:system/lib/libfpc1080_jni.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
