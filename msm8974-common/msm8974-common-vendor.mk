@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/pantech/msm8974-common/proprietary/vendor/bin/pan_mac_backup:system/vendor/bin/pan_mac_backup \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/pantech/msm8974-common/proprietary/vendor/bin/radish:system/vendor/bin/radish \
@@ -245,6 +246,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libpantech_wifi_mac_rw.so:system/vendor/lib/libpantech_wifi_mac_rw.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
