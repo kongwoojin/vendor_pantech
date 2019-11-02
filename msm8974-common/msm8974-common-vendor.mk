@@ -54,6 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
     vendor/pantech/msm8974-common/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
     vendor/pantech/msm8974-common/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/pantech/msm8974-common/proprietary/etc/permissions/com.pantech.device.fingerprint.xml:system/etc/permissions/com.pantech.device.fingerprint.xml \
+    vendor/pantech/msm8974-common/proprietary/vendor/framework/com.pantech.device.fingerprint.jar:system/vendor/framework/com.pantech.device.fingerprint.jar \
     vendor/pantech/msm8974-common/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/pantech/msm8974-common/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/pantech/msm8974-common/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
@@ -64,7 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_preview.so:system/lib/libchromatix_s5k6b2yx_preview.so \
     vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
     vendor/pantech/msm8974-common/proprietary/lib/libchromatix_s5k6b2yx_vt_common.so:system/lib/libchromatix_s5k6b2yx_vt_common.so \
-    vendor/pantech/msm8974-common/proprietary/lib/libfpc1080_jni.so:system/lib/libfpc1080_jni.so \
+    vendor/pantech/msm8974-common/proprietary/lib/libfpc1080_jni.so:system/vendor/lib/libfpc1080_jni.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
@@ -90,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libFingerprintBumper.so:system/vendor/lib/libFingerprintBumper.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
@@ -229,6 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libffmpeg_utils.so:system/vendor/lib/libffmpeg_utils.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
+    vendor/pantech/msm8974-common/proprietary/vendor/lib/libfpc1080_jni.so:system/vendor/lib/libfpc1080_jni.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/pantech/msm8974-common/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
